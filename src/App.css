@@ -294,10 +294,20 @@ a:hover {
         z-index: 9997;
     }
 
+    .contacts h2 {
+        margin-left: 150px;
+        margin-right: 150px;
+        text-align: center;
+    }
+
+    .contacts p {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
 }
 
 @media (max-width: 620px) {
-    
 
     .gallery
     {
