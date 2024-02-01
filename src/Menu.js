@@ -1,6 +1,6 @@
-import menu1 from './menu1.jpg';
-import menu2 from './menu2.jpg';
-import menu3 from './menu3.jpg';
+import menu1 from './Photos/menu1.jpg';
+import menu2 from './Photos/menu2.jpg';
+import menu3 from './Photos/menu3.jpg';
 
 function Menu() {
     return(

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { data } from './Data';
-import left from './left.png';
-import right from './right.png';
+import left from './Photos/left.png';
+import right from './Photos/right.png';
 
 function Gallery() {
     const [image, setImage] = useState(0);

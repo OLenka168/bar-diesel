@@ -1,7 +1,7 @@
 import { useLayoutEffect } from 'react';
 import gsap from 'gsap';
-import afisha from './afisha.jpg';
-import party from './party.jpg';
+import afisha from './Photos/afisha.jpg';
+import party from './Photos/party.jpg';
 
 function Home() {
     useLayoutEffect(() => {

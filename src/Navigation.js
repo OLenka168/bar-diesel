@@ -10,13 +10,12 @@ import Menu from './Menu';
 import Gallery from './Gallery';
 import Contacts from './Contacts';
 import About from './About';
-import logo from './logo.png';
+import logo from './Photos/logo.png';
 import Home from './Home';
 
 
 function Navigation() {
     const [isOpen, setOpen] = useState(true);
-    console.log(isOpen)
 
     return(
         <Router>
@@ -33,7 +32,7 @@ function Navigation() {
                     <Link to='/about' className='item' id='about'>О нас</Link>
                 </div>
                 <Routes>
-                    
+                    <Route path='*' element={<p></p>} />
                     <Route path='/menu' element={<Menu/>} />
                     <Route path='/gallery' element={<Gallery/>} />
                     <Route path='/contacts' element={<Contacts/>} />

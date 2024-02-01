@@ -1,5 +1,5 @@
 import { useForm, ValidationError } from '@formspree/react';
-import clover from './clover.png'
+import clover from './Photos/clover.png';
 
 function Modal() {
     const [state, handleSubmit] = useForm("mvolyyyl");

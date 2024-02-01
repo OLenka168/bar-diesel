@@ -1,11 +1,11 @@
-import photo1 from './photo1.jpg';
-import photo2 from './photo2.jpg';
-import photo3 from './photo3.jpg';
-import photo4 from './photo4.jpg';
-import photo5 from './photo5.jpg';
-import photo6 from './photo6.jpg';
-import photo7 from './photo7.jpg';
-import photo8 from './photo8.jpg';
+import photo1 from './Photos/photo1.jpg';
+import photo2 from './Photos/photo2.jpg';
+import photo3 from './Photos/photo3.jpg';
+import photo4 from './Photos/photo4.jpg';
+import photo5 from './Photos/photo5.jpg';
+import photo6 from './Photos/photo6.jpg';
+import photo7 from './Photos/photo7.jpg';
+import photo8 from './Photos/photo8.jpg';
 
 
 export const data = [

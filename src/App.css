@@ -1,12 +1,12 @@
 body {
-    background: url(./view.jpg) no-repeat center center fixed;
+    background: url(./Photos/view.jpg) no-repeat center center fixed;
     background-size: cover;
     overflow: hidden;
 }
 
 body:after {
     content: '';
-    background: url(./view1.jpg) no-repeat center center fixed;
+    background: url(./Photos/view1.jpg) no-repeat center center fixed;
     background-size: cover;
     width: 100%; height: 100%;
     position: absolute;
@@ -66,22 +66,22 @@ ul {
 }
 
 .navi #menu {
-    background-image: url(./menu.png);
+    background-image: url(./Photos/menu.png);
     background-repeat: no-repeat;
 }
 
 .navi #photo {
-    background-image: url(./photo.png);
+    background-image: url(./Photos/photo.png);
     background-repeat: no-repeat;
 }
 
 .navi #phone {
-    background-image: url(./phone.png);
+    background-image: url(./Photos/phone.png);
     background-repeat: no-repeat;
 }
 
 .navi #about {
-    background-image: url(./about.png);
+    background-image: url(./Photos/about.png);
     background-repeat: no-repeat;
 }
 
@@ -187,6 +187,16 @@ a:hover {
     z-index: 9999;
 }
 
+.footer {
+    background-image: url(./color.png);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9995;
+}
+
 
 @media (max-width: 900px) {
     body{
@@ -218,7 +228,7 @@ a:hover {
         border: 0;
         width: 40px;
         height: 45px;
-        background-image: url(./hamburger.svg);
+        background-image: url(./Photos/hamburger.svg);
         z-index: 9999;
     }
 
