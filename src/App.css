@@ -210,10 +210,11 @@ a:hover {
     }
 
     .navi {
-        top: 0;
-        right: -260px;
         display: flex;
         flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: -100px;
         width: 250px;
         height: 320px;
         transition: transform 0.3s linear;
@@ -222,19 +223,20 @@ a:hover {
 
     .navi_button {
         display: block;
-        position: fixed;
+        position: absolute;
         right: 0;
         padding: 0;
         border: 0;
         width: 40px;
         height: 45px;
-        background-image: url(./Photos/hamburger.svg);
+        background-image: url(./Photos/hamburger.png);
         z-index: 9999;
     }
 
     .navi.active {
+        position: fixed;
         transform: translateX(100%);
-        right: 260px;
+        right: 0;
     }
 
     h1 {
@@ -297,9 +299,14 @@ a:hover {
 @media (max-width: 620px) {
     
 
-    .gallery,
+    .gallery
+    {
+        right: 10px;
+    }
+
     .contacts {
-        right: 0;
+        position: fixed;
+        right: -110px;
     }
 
     .gallery_icon {
@@ -312,7 +319,7 @@ a:hover {
 
     p {
         padding: 0px;
-        margin: 10px 35px 20px 55px;
+        margin: 20px 30px 30px 20px;
     }
 
     .logo img {
